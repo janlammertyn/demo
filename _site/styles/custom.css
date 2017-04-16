@@ -1,0 +1,78 @@
+.caption h2 {
+	font-size: .66em;
+	margin: 0 0 .2em;
+	line-height: 1;
+}
+
+.caption p + p {
+	margin-top: 1em;
+}
+
+.slide h2 {
+	margin: -16px 0 16px;
+	line-height: 64px;
+}
+
+.slide h3 {
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: .5em;
+}
+
+.slide li li {
+	margin: 16px 0 16px;
+	line-height: 32px;
+}
+.slide li li + li {
+	margin-top: 32px;
+}
+
+.slide p + ul {
+	margin-top: -42px;
+}
+
+.title.slide h2 {
+	font-size: 4em;
+	line-height: 1;
+	margin-top: 1em;
+}
+
+.toc.slide a:not(:hover) {
+	background: none;
+}
+
+.toc.slide > ul {
+	margin-left: 146px;
+}
+
+.toc.slide li.current > a {
+	font-weight: bold;
+}
+
+.toc.slide li li {
+	font-size: .9em;
+}
+
+.full #intro h2 {
+	font-size: 3em;
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+.full #intro li {
+	font-size: 2em;
+	position: absolute;
+	margin-left: 100%;
+	width: 66%;
+	background: white;
+	transition: margin-left .7s;
+}
+.full #intro li.active {
+	margin-left: 0;
+}
+.full #intro li:before {
+	content: '';
+}
+
+p + .twitter-tweet, p + .fb-post {
+	margin-top: -32px !important;
+}
